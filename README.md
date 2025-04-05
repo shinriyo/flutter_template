@@ -69,6 +69,15 @@ Run this command to setup derry
 dart pub global activate derry
 ```
 Most of the scripts we will use are abstracted away by derry. If you want to know more about the scirpts, read the [scripts documentation](scripts/README.md).
+
+#### Mason
+
+```
+mason add destination \
+  --git-url https://github.com/wednesday-solutions/flutter_template \
+  --git-path bricks/destination
+```
+
 #### Get Dependencies
 ```shell
 flutter pub get
